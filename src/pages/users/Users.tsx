@@ -17,7 +17,7 @@ const columns: GridColDef[] = [
     },
     {
         field: 'actions', headerName: 'Actions', width: 100,
-        renderCell: (params) => {
+        renderCell: () => {
             return <div className="acton">
                 <div className="view">View</div>
                 <div className="delete">Delete</div>
